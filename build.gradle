@@ -23,6 +23,8 @@ dependencies {
 
     // This dependency is used internally, and not exposed to consumers on their own compile classpath.
     implementation 'com.google.guava:guava:28.2-jre'
+    implementation 'edu.stanford.nlp:stanford-corenlp:4.0.0'
+    implementation 'org.apache.commons:commons-lang3:3.11'
 
     // Use JUnit test framework
     testImplementation 'junit:junit:4.12'
